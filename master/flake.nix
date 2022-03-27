@@ -11,6 +11,7 @@
   inputs.src-nimbpf-master.ref   = "refs/heads/master";
   inputs.src-nimbpf-master.owner = "jasonk000";
   inputs.src-nimbpf-master.repo  = "nimbpf";
+  inputs.src-nimbpf-master.dir   = "";
   inputs.src-nimbpf-master.type  = "github";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
