@@ -7,8 +7,45 @@
   "license": "MIT",
   "web": "https://github.com/jasonk000/nimbpf",
   "refs": [
-    "fatal: unable to access 'https://github.com/jasonk000/nimbpf/': Could not resolve host: github.com",
+    "refs/heads/bump-56",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "nimbpf",
+      "version": "0.1.0",
+      "author": "Jason Koch",
+      "desc": "libbpf for nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "nimterop",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
